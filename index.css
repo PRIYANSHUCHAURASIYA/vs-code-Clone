@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1e1e1e;
+    color: #fff;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background: #222;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 8px;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 1em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover {
+    color: #3794ff;
+  }
+
+  .search-input {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 12px;
+  }
+
+  .download-btn {
+    background: #007acc;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+
+  .download-btn:hover {
+    background: #005fa3;
+  }
+
+  .banner {
+    background: #252526;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1em;
+  }
+
+  .banner-link {
+    color: #3794ff;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 40px 0;
+    flex-wrap: wrap;
+  }
+
+  .hero-content {
+    max-width: 500px;
+    margin-right: 48px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+  }
+
+  .hero-content .highlight {
+    color: #3794ff;
+  }
+
+  .hero-content .subtitle {
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+  }
+
+  .download-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .btn {
+    background: #252526;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid #3794ff;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .btn.primary {
+    background: #3794ff;
+    color: #fff;
+    border: none;
+  }
+
+  .btn.secondary {
+    background: #24292e;
+    color: #fff;
+    border: none;
+  }
+
+  .btn:hover {
+    background: #007acc;
+    color: #fff;
+  }
+
+  .hero-image img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .languages {
+    padding: 60px 40px 40px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .language-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #252526;
+    padding: 18px 12px;
+    border-radius: 6px;
+    width: 110px;
+  }
+
+  .language-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .language-item span {
+    font-size: 1em;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 18px 0;
+    background: #222;
+    color: #aaa;
+    font-size: 0.95em;
+    margin-top: 40px;
+  }
